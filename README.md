@@ -16,13 +16,13 @@ Ovo je kolekcija Python projekata koji pokazuju osnovne i naprednije veštine pr
 4. **Naprednija To-Do lista** (`todo_lista_2.py`)  
    Lista zadataka sa oznakom “uradjeno” i datumom kreiranja. Omogućava bolje praćenje zadataka.
 
-5. **Alat za beleške** (`notes.py`)  
+5. **Alat za bilješke** (`notes.py`)  
    Tekstualni editor za beleške sa mogućnostima:
-   - Pregled svih beleški
-   - Dodavanje nove beleške
-   - Brisanje beleške
+   - Pregled svih bilješki
+   - Dodavanje nove bilješke
+   - Brisanje bilješke
    - Pretraga po ključnoj reči  
-   Sve beleške se čuvaju u fajlu `moje_beleške.txt`.
+   Sve beleške se čuvaju u fajlu `moje_bilješke.txt`.
 
 ## Kako pokrenuti projekte
 
