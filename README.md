@@ -25,7 +25,7 @@ Ovo je kolekcija Python projekata koji pokazuju osnovne i naprednije veštine pr
    Sve bilješke se čuvaju u fajlu `moje_bilješke.txt`.
 ## Kako preuzeti i pokrenuti projekte
 
-1. Idi na repozitorij: [https://github.com/33adin/python-projekti](https://github.com/33adin/python-projekt)  
+1. Idi na repozitorij: [https://github.com/33adin/python-projekti](https://github.com/33adin/python-projekti)  
 2. Klikni na **Code → Download ZIP**  
 3. Raspakuj ZIP fajl na računaru.  
 4. Otvori terminal u tom folderu.  
