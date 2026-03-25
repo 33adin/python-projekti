@@ -28,4 +28,4 @@ Ovo je kolekcija Python projekata koji pokazuju osnovne i naprednije veštine pr
 
 1. Preuzmite ili klonirajte repozitorij:
    ```bash
-   git clone https://github.com/username/Projekti.git
+   git clone https://github.com/33adin/python-projekti.git
