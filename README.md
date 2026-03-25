@@ -13,7 +13,7 @@ Ovo je kolekcija Python projekata koji pokazuju osnovne i naprednije veštine pr
 3. **Mini kalkulator** (`mini_kalkulator.py`)  
    Tekstualni kalkulator sa osnovnim aritmetičkim operacijama (+, -, *, /) i dodatnim funkcijama (stepen, koren).
 
-4. **Naprednija To-Do lista** (`todo_lista_2.py`)  
+4. **Naprednija To-Do lista** (`todo_lista_v2.py`)  
    Lista zadataka sa oznakom “uradjeno” i datumom kreiranja. Omogućava bolje praćenje zadataka.
 
 5. **Alat za bilješke** (`notes.py`)  
