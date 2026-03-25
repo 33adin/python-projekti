@@ -15,26 +15,26 @@ def save_notes(notes):
 
 def show_notes(notes):
     if not notes:
-        print("Nema beleški.")
+        print("Nema bilješki.")
     else:
-        print("\n--- Beleške ---")
+        print("\n--- bilješke ---")
         for i, note in enumerate(notes, 1):
             print(f"{i}. {note}")
 
 def add_note(notes):
-    note = input("Unesi novu belešku: ")
+    note = input("Unesi novu bilješku: ")
     notes.append(note)
     save_notes(notes)
-    print("Beleška dodata!")
+    print("Bilješka dodata!")
 
 def delete_note(notes):
     show_notes(notes)
     try:
-        index = int(input("Koji broj beleške želiš da obrišeš? "))
+        index = int(input("Koji broj bilješke želiš da obrišeš? "))
         if 0 < index <= len(notes):
             removed = notes.pop(index-1)
             save_notes(notes)
-            print(f"Beleška '{removed}' obrisana!")
+            print(f"bilješka '{removed}' obrisana!")
         else:
             print("Pogrešan broj.")
     except ValueError:
@@ -44,11 +44,11 @@ def search_notes(notes):
     keyword = input("Unesi ključnu reč za pretragu: ").lower()
     results = [note for note in notes if keyword in note.lower()]
     if results:
-        print("\nPronađene beleške:")
+        print("\nPronađene bilješke:")
         for i, note in enumerate(results, 1):
             print(f"{i}. {note}")
     else:
-        print("Nije pronađena nijedna beleška.")
+        print("Nije pronađena nijedna bilješka.")
 
 # Glavni meni
 notes = load_notes()
